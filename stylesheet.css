@@ -1,0 +1,177 @@
+.header{
+	width: 1500px;
+	margin: auto;
+}
+
+.form{
+	width: 900px;
+	margin: auto;
+}
+
+.menu{
+	border-radius: 10px;
+	background-color: #55FF55;
+	margin: 0px 5px 0px 5px;
+	position: relative;
+	display: block;
+	clear: both;
+	text-align: right;
+	
+}
+
+.menu_item{
+	display: inline-block;
+	background-color: #55FF55;
+	border-radius: 40px;
+	margin: 0px 20px 0px 20px;
+	clear: both;
+	color: #004400;
+}
+
+.left_separator{
+    float: left;
+	border-top: 1px solid #000000;
+	display: block;
+	width: 30%;
+}
+
+.left_no_separator{
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+
+.right_div{
+    display: inline-block;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	float: right;
+}
+
+.right_separator{
+    float: right;
+    border-right: 1px solid #55FF55;
+    display: inline-block;
+    background-color: #005500;
+    color: #FFFFFF;
+    padding: 6px 8px 8px 8px;
+    border-radius: 2px;
+    margin: 0px 0px 0px 0px;
+}
+
+.right_no_separator{
+    float: right;
+    display: inline-block;
+    background-color: #005500;
+    color: #FFFFFF;
+    padding: 6px 8px 8px 8px;
+    border-radius: 2px;
+    margin: 0px 0px 0px 0px;
+}
+
+.right_link{
+	color: #FFFFFF
+}
+
+.container{
+	width: 300px;
+	clear: both;
+	margin: auto;
+	float: left;
+}
+
+.contact_container{
+	width: 500px;
+	clear: both;
+	margin: auto;
+}
+
+.container> form> input{
+	width: 100%;
+	clear: both;
+	height: 30px;
+}
+
+.contact_container> form> input{
+	width: 100%;
+	clear: both;
+	height: 30px;
+}
+
+.contact_container> form> textarea{
+	width: 100%;
+	height: 200px;
+	clear: both;
+}
+
+.info{
+	background-color: 5555FF;
+	border-radius: 10px;
+	float: right;
+	padding: 20px 20px 20px 20px;
+}
+
+.blog{
+	display: block;
+	margin: 20px 20px 20px 20px;
+	border: 2px solid black;
+}
+
+.blog_header{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+.blog_body{
+	background-color: #888888;
+	text-align: center;
+}
+
+#footer{
+	clear: both;
+	background-color: #FFFFFF;
+	height: 300px;
+	display: block;
+	text-align: center;
+}
+
+#main_blog{
+	background: #AAFFAA;
+	border-radius: 5px;
+	display: block;
+	clear: both;
+	margin: auto;
+	margin-top: 10px;
+	width:1200px;
+	padding: 10px 20px 20px 10px;
+	border: 2px solid #005500;
+}
+
+#main_shop{
+	float: right;
+	width: 90%;
+}
+
+h1{
+    text-align: center;
+	clear: both;
+	display: block;
+}
+
+div p{
+	
+}
+
+a{
+    text-decoration: none;
+	color: #FFFFFF;
+}
+
+body{
+	background-color: white;
+}
+
+*{
+    font-family: Helvetica;
+}
